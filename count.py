@@ -1,6 +1,7 @@
-newnum=int(input(""))
-sum=0
-while(n>0):
-    newnum=sum+1
-    newnum=newnum//10
-print(sum)
+Number=int(input("Please Enter any Number: "))
+c=0
+while(Number>0):
+    Number =Number//10
+    c=c+1
+
+print(c)
