@@ -1,6 +1,6 @@
-n=int(input(""))
-count=0
+newnum=int(input(""))
+sum=0
 while(n>0):
-    count=count+1
-    n=n//10
-print(count)
+    newnum=sum+1
+    newnum=newnum//10
+print(sum)
