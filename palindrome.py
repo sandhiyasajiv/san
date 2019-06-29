@@ -1,4 +1,4 @@
-n=int(input("Enter number:"))
+n=int(input(""))
 t=n
 r=0
 if n<=1000:
