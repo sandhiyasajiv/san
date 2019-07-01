@@ -1,4 +1,5 @@
+i=int(input())
 n=input()
 list=n.split()
 list.sort()
-print(list[-1]) 
+print(list[-1])
