@@ -1,5 +1,3 @@
-i=int(input())
-n=input()
-list=n.split()
-list.sort()
-print(list[-1])
+n=int(input())
+yu=list(map(int,input().split()))
+print (max(yu))
