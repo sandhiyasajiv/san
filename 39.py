@@ -1,2 +1,2 @@
-arr=list(map(int,input().split()))
-print(max(arr))
+yuvan=list(map(int,input().split()))
+print(max(yuvan))
