@@ -1,2 +1,2 @@
 ip=input()
-print((ip.count(".")))
+print((ip.count("."))+1)
