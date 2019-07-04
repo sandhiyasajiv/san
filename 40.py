@@ -8,7 +8,7 @@ elif nterms == 1:
    print(n2)
 else:
    while count < nterms:
-       print(n2,end='  ')
+       print(n2,end=' ')
        nth = n1 + n2
        n1 = n2
        n2 = nth
