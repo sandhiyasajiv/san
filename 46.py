@@ -1,2 +1,2 @@
-num=int(input())
-print(num+1)
+yuvan=int(input())
+print(yuvan+1)
