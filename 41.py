@@ -1,4 +1,4 @@
-n=input()
-num=int(input())
-for x in range (0,num):
+n,num=input().split()
+num=int(num)
+for i in range (num):
   print(n)
