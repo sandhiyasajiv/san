@@ -3,17 +3,17 @@ if y>s:
     y,s=s,y
 lst=[]
 for i in range(y):
-    lst2=list(map(int,input().split()))
-    lst2.sort()
-    lst.append(lst2)
+    lst1=list(map(int,input().split()))
+    lst1.sort()
+    lst.append(lst1)
 for j in range(0,s):
-    lst3=[]
-    for i in range(0,s):
-        lst3.append(lst[i][j])
-    lst3.sort()
+    lst2=[]
+    for i in range(0,y):
+        lst2.append(lst[i][j])
+    lst2.sort()
     x=0
     for i in range(0,y):
-        lst[i][j]=lst3[x]
+        lst[i][j]=lst2[x]
         x=x+1
 for i in lst:
     print(*i)
