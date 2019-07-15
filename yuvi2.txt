@@ -1,0 +1,15 @@
+l=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+length=len(l)
+n=int(input())
+for i in range (0,n):
+  for j in range(0,1+i):
+    for x in range (n):
+      print(" ")
+    print(l[j],end='')
+  print()
+for i in range (n,0,-1):
+  for j in range(0,i-1):
+    for i in range (n):
+     print(" ")
+    print(l[j],end='')
+  print()  
