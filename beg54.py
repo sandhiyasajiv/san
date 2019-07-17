@@ -1,5 +1,5 @@
-n=int(input())
-if n%2==0:
-  print(n)
+yuvan=int(input())
+if yuvan%2==0:
+  print(yuvan)
 else:
-  print(n-1)  
+  print(yuvan-1)  
